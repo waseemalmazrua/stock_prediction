@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 app = Flask(__name__)
-model = joblib.load('model2025.pkl')
+model, scaler = joblib.load('model2025.pkl')
 
 @app.route('/')
 def home():
