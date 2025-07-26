@@ -5,8 +5,7 @@ A lightweight and interactive web app to predict stock prices using Support Vect
 ---
 
 ## 🌟 Demo
-Live App: _coming soon..._  
-[![](https://img.shields.io/badge/Deployed%20on-Render-blue)](https://render.com)
+Live App: https://stock-prediction-p1bx.onrender.com/predict
 
 ---
 
