@@ -15,7 +15,7 @@ def predict():
         open_ = float(request.form['open'])
         high = float(request.form['high'])
         low = float(request.form['low'])
-        volume = int64(request.form['volume'])
+        volume = int(request.form['volume'])
 
         input_array = np.array([[open_, high, low, volume]])
         prediction = model.predict(input_array)[0]
